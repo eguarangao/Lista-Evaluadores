@@ -78,8 +78,8 @@ public class MainActivity2 extends AppCompatActivity {
                     EvaluadoFull evaluado = response.body();
                     //  for(int i = 0;i<itemsEvaluado.size();i++)
                     //  itemsEvaluado.add(evaluado.getListaaevaluado().get(i));
-                    loadListEvaluado(evaluado.getListaaevaluar());
-                    PutData(itemsEvaluado);
+                    listinfo(evaluado.getListaaevaluar());
+                   // PutData(itemsEvaluado);
 
                 } catch (Exception ex) {
                     System.out.println(ex.toString());
@@ -94,8 +94,8 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
-    public void loadListEvaluado(List<Evaluado> evaluados) {
-        RecyclerView recyclerView = findViewById(R.id.recyclerView2);
+    public void listinfo(List<Evaluado> evaluados) {
+        recyclerView = findViewById(R.id.recyclerView2);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
 
         RecyclerView.Adapter evaluadoAdapter = new AdapterEvaluado(this, evaluados, R.layout.items2);

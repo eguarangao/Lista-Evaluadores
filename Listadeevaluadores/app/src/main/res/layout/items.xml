@@ -22,7 +22,7 @@
 
 
             <ImageView
-                android:id="@+id/imgUsr2"
+                android:id="@+id/imgUsr"
                 android:layout_width="103dp"
                 android:layout_height="match_parent"
                 android:contentDescription="TODO"
@@ -35,7 +35,7 @@
                 android:padding="5dp">
 
                 <TextView
-                    android:id="@+id/lblNombre2"
+                    android:id="@+id/lblNombre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="NOMBRE"
@@ -43,7 +43,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/lblArea2"
+                    android:id="@+id/lblArea"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="Area"
@@ -51,7 +51,7 @@
                     android:textStyle="normal" />
 
                 <TextView
-                    android:id="@+id/lblFechaInicio2"
+                    android:id="@+id/lblFechaInicio"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="Id"

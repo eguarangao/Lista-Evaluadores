@@ -39,9 +39,9 @@ public class AdapterEvaluado extends RecyclerView.Adapter<AdapterEvaluado.ViewHo
 
         holder.Nombres.setText(milista.get(position).getNombres());
         holder.cargo.setText(milista.get(position).getCargo());
-        holder.situacion.setText(milista.get(position).getSituacion());
         holder.fechaInicio.setText(milista.get(position).getFechaInicio());
         holder.fechaFin.setText(milista.get(position).getFechaFin());
+        holder.situacion.setText(milista.get(position).getSituacion());
         Glide.with(m_context).load(milista.get(position).getImgJPG()).placeholder
                 (R.drawable.usuario).into(holder.imgJPG);
     }
@@ -63,7 +63,7 @@ public class AdapterEvaluado extends RecyclerView.Adapter<AdapterEvaluado.ViewHo
             super(itemView);
             Nombres = itemView.findViewById(R.id.lblNombre2);
             cargo= itemView.findViewById(R.id.lblArea2);
-            situacion = itemView.findViewById(R.id.lblSituacion2);
+            situacion=itemView.findViewById(R.id.lblSituacion2);
             fechaInicio=itemView.findViewById(R.id.lblFechaInicio2);
             fechaFin=itemView.findViewById(R.id.lblFechaFin2);
             imgJPG = itemView.findViewById(R.id.imgUsr2);

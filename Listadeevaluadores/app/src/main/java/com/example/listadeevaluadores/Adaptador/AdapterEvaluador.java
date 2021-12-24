@@ -96,10 +96,10 @@ public class AdapterEvaluador extends RecyclerView.Adapter<AdapterEvaluador.View
         //public TextView Tcover;
         public ViewHolder(View itemView) {
             super(itemView);
-            imgJPG = itemView.findViewById(R.id.imgUsr2);
-            Tnombre = itemView.findViewById(R.id.lblNombre2);
-            Tarea = itemView.findViewById(R.id.lblArea2);
-            Tid = itemView.findViewById(R.id.lblFechaInicio2);
+            imgJPG = itemView.findViewById(R.id.imgUsr);
+            Tnombre = itemView.findViewById(R.id.lblNombre);
+            Tarea = itemView.findViewById(R.id.lblArea);
+            Tid = itemView.findViewById(R.id.lblFechaInicio);
 
         }
 
